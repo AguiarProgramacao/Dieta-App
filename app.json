@@ -1,25 +1,26 @@
 {
   "expo": {
-    "name": "minha-dieta",
-    "slug": "minha-dieta",
+    "name": "Dieta.AI",
+    "slug": "mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/web_hi_res_512.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/Aguiar.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/web_hi_res_512.png",
+        "backgroundColor": "#0F232C"
+      },
+      "package": "com.aguiarprogramacao.mobile"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "57463459-191a-4fb1-9a52-8a31e534a40c"
+      }
     }
   }
 }
